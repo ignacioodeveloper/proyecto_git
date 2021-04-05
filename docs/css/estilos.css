@@ -42,3 +42,41 @@ nav {
     color: #5eaaa8;
     list-style: none;
 }
+
+div {
+    border: 5px solid #a3d2ca;
+}
+
+.error_404 li {
+    padding: 3px;
+    text-align: center;
+    color: #f05945;
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.caja_404 {
+    border: 10px solid #5eaaa8;
+}
+.caja_404 p {
+    padding: 3px;
+    color: #f05945;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.caja_404 li {
+    padding: 3px;
+    text-align: center;
+    list-style: none;
+    color: #5eaaa8;
+    font-size: 20px;
+}
+
+
+
+
+
