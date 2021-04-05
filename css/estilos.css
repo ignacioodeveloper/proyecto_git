@@ -1,0 +1,14 @@
+
+
+body {
+    background-color: lightblue;
+
+}
+.container h1 {
+    color: red;
+}
+
+.list {
+    color: blue;
+    font-weight: bold;
+}
