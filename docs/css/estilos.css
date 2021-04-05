@@ -1,14 +1,27 @@
 
 
 body {
-    background-color: lightblue;
+    background-color: #f7f3e9;
 
+}
+
+header {
+    border: 10px solid #a3d2ca;
 }
 .container h1 {
-    color: red;
+    text-align: center;
+    color: #f05945;
+    font-size: 35px;
 }
 
-.list {
-    color: blue;
-    font-weight: bold;
+section {
+    
+    border: 10px solid #a3d2ca;
+}
+
+.list li {
+    padding: 5px;
+    text-align: center;
+    color: #5eaaa8;
+    font-size: 20px;
 }
