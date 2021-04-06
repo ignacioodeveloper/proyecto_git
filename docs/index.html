@@ -4,47 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
     <title>proyecto_git</title>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <p>
+    <div class="container">
+        <div class="shadow-lg">
             <h1>EJERCICIOS COMANDO GIT</h1>
-            </p>            
         </div>
-    </header> 
+    
 
     <section>
         <div class="list">
-            <ol>
+            <ol class="list-unstyled">
                 <li>git init -> crear repositorio</li>
                 <li>git status -> ver el estado del git si todo se ejecuto con exito
                     git status -sb -> short form</li>
                 <li>git add . -> agregar todos ( . ) los archivos al repositorio
-                    al guardar en VS hay que agregar git add (nombre del archivo o ( . )) para que se guarden los cambios
+                    al guardar en VS hay que agregar git add (nombre del archivo o ( . )) para que se guarden los
+                    cambios
                 </li>
                 <li>git commit -m "mensaje_claro" -> guardar un respaldo del proyecto</li>
                 <li>git log -> ver git ejecutados o creados
                     git log --oneline</li>
-                <li>git remote add origin "link_proyect" -> agrega una conexion   remota</li>
+                <li>git remote add origin "link_proyect" -> agrega una conexion remota</li>
                 <li>git branch -M main -> modifica el nombre de la rama</li>
-                <li>git push -u origin main -> lleva el directorio local a la nube   "empuja | push"</li>
+                <li>git push -u origin main -> lleva el directorio local a la nube "empuja | push"</li>
             </ol>
         </div>
     </section>
-    <nav class="bonus_track">
-        <p>bonus track</p>
-        <ul>
-            <li>dir -> ver archivos de la carpeta seleccionada (cd carpeta)</li>
-            <li>config --list -> ver configuracion de git</li>
-            <li>git config --global user.name "nombre"</li>
-            <li>--global es para cambiar en todos los repositorios</li>
-        </ul>
-    </nav>
+
+
+    <div class="bonus_track">
+        <h1>bonus track</h1>
+        
+        <div class="list-group">
+            <ul>
+                <a href="#!" class="list-group-item list-group-item-action list-group-item-info">dir -> ver archivos de la carpeta seleccionada (cd carpeta)</a>
+                <a href="#!" class="list-group-item list-group-item-action list-group-item-info">config --list -> ver configuracion de git</a>
+                <a href="#!" class="list-group-item list-group-item-action list-group-item-info">git config --global user.name "nombre"</a>
+                <a href="#!" class="list-group-item list-group-item-action list-group-item-info">--global es para cambiar en todos los repositorios</a> 
+
+            </ul>
+        </div>    
+    </div>
 
     <div class="error_404">
         <ul>
@@ -52,7 +62,7 @@
         </ul>
     </div>
 
-
+    </div>
 </body>
 
 </html>

@@ -5,9 +5,6 @@ body {
 
 }
 
-header {
-    border: 10px solid #a3d2ca;
-}
 .container h1 {
     text-align: center;
     color: #f05945;
@@ -43,9 +40,7 @@ nav {
     list-style: none;
 }
 
-div {
-    border: 5px solid #a3d2ca;
-}
+
 
 .error_404 li {
     padding: 3px;
